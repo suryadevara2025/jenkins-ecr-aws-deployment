@@ -10,7 +10,7 @@ class ApplicationTest(unittest.TestCase):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
         self.assertIn(
-            b"Welcome to My AWS ECR Project",
+            b"Welcome to Automted ECR CI/CD Deployment!",
             response.data
         )
 
