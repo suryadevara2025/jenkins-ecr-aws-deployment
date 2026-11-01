@@ -13,7 +13,7 @@ def home():
             <title>DevOps CI/CD Project</title>
         </head>
         <body>
-            <h1>Welcome to My AWS ECR Project!</h1>
+            <h1>Welcome to Automated ECR CI/CD Deployment!</h1>
             <h2>Jenkins + Docker + GitHub + AWS</h2>
             <h3>Deployment Version: {version}</h3>
             <p>Application deployed successfully.</p>
